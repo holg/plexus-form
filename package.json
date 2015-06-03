@@ -14,9 +14,9 @@
     "react-component",
     "form"
   ],
-  "homepage": "https://github.com/AppliedMathematicsANU/plexus-form",
+  "homepage": "https://github.com/holg/plexus-form",
   "bugs": {
-    "url": "https://github.com/AppliedMathematicsANU/plexus-form/issues"
+    "url": "https://github.com/holg/plexus-form/issues"
   },
   "license": "MIT",
   "author": {

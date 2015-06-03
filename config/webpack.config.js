@@ -6,7 +6,7 @@ var common = require('./webpack.common');
 
 
 module.exports = extend(common, {
-    devtool: 'eval',
+    devtool: 'cheap-source-map',
     entry: [
         'webpack-dev-server/client?http://0.0.0.0:3000',
         'webpack/hot/only-dev-server',
@@ -22,7 +22,7 @@ module.exports = extend(common, {
         new webpack.NoErrorsPlugin(),
         new webpack.DefinePlugin({
         "process.env": {
-          NODE_ENV: JSON.stringify("production")
+          NODE_ENV: JSON.stringify("development")
         }
       }),
     ],

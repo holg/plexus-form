@@ -3,10 +3,10 @@
 A dynamic form component for [React](http://facebook.github.io/react/) using a
 specification format based on [JSON-Schema](http://json-schema.org/).
 
-**[Demo](http://appliedmathematicsanu.github.io/plexus-form/)**
+**[Demo](http://holg.github.io/plexus-form/)**
 
 The full code for the demo can be found at
-https://github.com/AppliedMathematicsANU/plexus-form/blob/master/demos/demo.jsx.
+https://github.com/holg/plexus-form/blob/master/demos/demo.jsx.
 
 Plexus-form takes a JavaScript object describing the shape of the data we want
 a user to provide - a *schema* - and automatically creates a form based on
@@ -50,7 +50,7 @@ which uses the same schema.
 ## Differences between JSON-Schema and plexus-form schemas:
 
 Plexus-form and
-[plexus-validate](https://github.com/AppliedMathematicsANU/plexus-validate)
+[plexus-validate](https://github.com/holg/plexus-validate)
 take a plain JavaScript data object as input rather than a JSON-formatted
 string.
 

@@ -11,7 +11,7 @@ var readme = require('../README.md');
 module.exports = React.createClass({
     render() {
         return <div className='pure-g'>
-            <Fork className='right' project='AppliedMathematicsANU/plexus-form'></Fork>
+            <Fork className='right' project='holg/plexus-form'></Fork>
             <header className='pure-u-1'>
                 <h1>plexus-form</h1>
 

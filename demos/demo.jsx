@@ -110,7 +110,7 @@ var schema = {
     languages: {
       title: "Languages you speak",
       type: "array",
-      maxItems: 2,
+      maxItems: 3,
       items: {
         type: "string"
       }
